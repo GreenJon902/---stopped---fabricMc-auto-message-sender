@@ -12,7 +12,6 @@ import org.lwjgl.glfw.GLFW;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
