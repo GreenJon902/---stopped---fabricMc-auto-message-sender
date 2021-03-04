@@ -1,8 +1,8 @@
-package net.fabricmc.example;
+package net.GreenJon902.auto_message_sender;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class AutoMessageSender implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.

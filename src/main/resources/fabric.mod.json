@@ -1,30 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "ams",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Auto Message Send",
+  "description": "A mod to send messages or commands by the click of a button",
   "authors": [
-    "Me!"
+    "GreenJon902"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/GreenJon902/fabricMc-auto-message-sender"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/ams/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.GreenJon902.auto_message_sender.AutoMessageSender"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
