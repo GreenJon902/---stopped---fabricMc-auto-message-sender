@@ -36,7 +36,7 @@ public class AutoMessageSender implements ModInitializer {
 			if (config_file.createNewFile()) {
 				LOGGER.info("No config file found, creating a new one");
 				try {
-					FileWriter config_file_writer = new FileWriter("filename.txt");
+					FileWriter config_file_writer = new FileWriter(String.valueOf(config_file_path));
 					config_file_writer.write("{\n" +
 							"    \"comments1\": \"this is where the config for ASM will go\",\n" +
 							"    \"comments2\": \"format it like this   'Letter': 'Message/command'\",\n" +
