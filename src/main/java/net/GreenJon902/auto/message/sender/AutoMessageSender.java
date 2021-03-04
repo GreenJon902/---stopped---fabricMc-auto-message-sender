@@ -1,4 +1,4 @@
-package net.GreenJon902.auto_message_sender;
+package net.GreenJon902.auto.message.sender;
 
 import net.fabricmc.api.ModInitializer;
 
